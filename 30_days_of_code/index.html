@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Js sound playing</title>
+</head>
+<body>
+
+    <header class="music-box">
+        <div class="keys">
+            <div data-key="65" class="key">A</div>
+            <div data-key="83" class="key">S</div>
+            <div data-key="68" class="key">D</div>
+            <div data-key="70" class="key">F</div>
+            <div data-key="71" class="key">G</div>
+            <div data-key="72" class="key">H</div>
+            <div data-key="74" class="key">J</div>
+            <div data-key="75" class="key">K</div>
+            <div data-key="76" class="key">L</div>
+        </div>
+    </header>
+   
+    
+    <audio data-key="65" src="audio/boom.wav"></audio>
+    <audio data-key="83" src="audio/clap.wav"></audio>
+    <audio data-key="68" src="audio/kick.wav"></audio>
+    <audio data-key="70" src="audio/hihat.wav"></audio>
+    <audio data-key="71" src="audio/openhat.wav"></audio>
+    <audio data-key="72" src="audio/ride.wav"></audio>
+    <audio data-key="74" src="audio/snare.wav"></audio>
+    <audio data-key="75" src="audio/tom.wav"></audio>
+    <audio data-key="76" src="audio/tink.wav"></audio>
+
+    <script src="js/media.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

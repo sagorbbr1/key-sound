@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.music-box {
+  background-image: linear-gradient(to right, #b567f121, #7b0bc025),
+    url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.keys {
+  text-align: center;
+
+  padding: 10rem 0;
+}
+.key {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 1px solid violet;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  margin: 1rem;
+  padding: 2rem;
+  font-size: 2.2rem;
+  transition: all 0.5s;
+}
+.playing {
+  transform: scale(1.2);
+  border-color: rgb(93, 33, 93);
+  box-shadow: 0 10px 15px rgb(58, 32, 32);
+}
